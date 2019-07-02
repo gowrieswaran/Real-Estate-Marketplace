@@ -1,0 +1,257 @@
+Gowri Eswaran@LAPTOP-Q1TOUCOP MINGW64 ~/Documents/Blockchain-Capstone/eth-contracts (master)
+$ truffle compile --all
+Compiling .\contracts\ERC721Mintable.sol...
+Compiling .\contracts\Migrations.sol...
+Compiling .\contracts\Oraclize.sol...
+Compiling .\contracts\SolnSquareVerifier.sol...
+Compiling .\contracts\Verifier.sol...
+Compiling .\contracts\ERC721Mintable.sol...
+Compiling .\contracts\Oraclize.sol...
+Compiling openzeppelin-solidity/contracts/drafts/Counters.sol...
+Compiling openzeppelin-solidity/contracts/math/SafeMath.sol...
+Compiling openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol...
+Compiling openzeppelin-solidity/contracts/utils/Address.sol...
+Compiling openzeppelin-solidity\contracts\math\SafeMath.sol...
+Writing artifacts to .\build\contracts
+
+
+Gowri Eswaran@LAPTOP-Q1TOUCOP MINGW64 ~/Documents/Blockchain-Capstone/eth-contracts (master)
+$ truffle migrate --reset
+Compiling .\contracts\ERC721Mintable.sol...
+Compiling .\contracts\Oraclize.sol...
+Writing artifacts to .\build\contracts
+
+⚠️  Important ⚠️
+If you're using an HDWalletProvider, it must be Web3 1.0 enabled or your migration will hang.
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      1561958111978
+> Block gas limit: 6721975
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x4b23fb25e40eeddb4b263df5c92fe8686238eccdb13ca8e0a7ffe5a5a4f85c27
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xbaAA2a3237035A2c7fA2A33c76B44a8C6Fe18e87
+   > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
+   > balance:             99.50039726
+   > gas used:            284908
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00569816 ETH
+
+
+- Saving migration to chain.
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00569816 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'Verifier'
+   --------------------
+   > transaction hash:    0x0d248d87ec9072316e119bba9e160863ad35ff70032e2ebe9ed8ac631edfa65b
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xA4392264a2d8c998901D10C154C91725b1BF0158
+   > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
+   > balance:             99.46388712
+   > gas used:            1783473
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.03566946 ETH
+
+
+   Deploying 'SolnSquareVerifier'
+   ------------------------------
+   > transaction hash:    0x244bb0e2f97bb5b86457978d517360b864939e2a846fe82553912cfb54afef6a
+- Blocks: 0            Seconds: 0
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xB529f14AA8096f943177c09Ca294Ad66d2E08b1f
+   > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
+   > balance:             99.37482578
+   > gas used:            4453067
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.08906134 ETH
+
+
+- Saving migration to chain.
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.1247308 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.13042896 ETH
+
+
+Gowri Eswaran@LAPTOP-Q1TOUCOP MINGW64 ~/Documents/Blockchain-Capstone/eth-contracts (master)
+$ truffle migrate --network rinkeby --reset
+Compiling .\contracts\ERC721Mintable.sol...
+Compiling .\contracts\Oraclize.sol...
+Writing artifacts to .\build\contracts
+
+⚠️  Important ⚠️
+If you're using an HDWalletProvider, it must be Web3 1.0 enabled or your migration will hang.
+
+
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 7006834
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xcef60aa98179679cda89a0abb841983e1d20e94c0a9ecde04f06e08908b8733b
+- Blocks: 0            Seconds: 0
+   > Blocks: 1            Seconds: 14
+   > contract address:    0x728Fa4CcBc22e0D561F196F11382eE0ac9039f35
+   > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
+   > balance:             13.500306427999961
+   > gas used:            284908
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00284908 ETH
+
+
+- Saving migration to chain.
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00284908 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'Verifier'
+   --------------------
+   > transaction hash:    0xe73978d01494b35c0f3e67e09e2a4ed271dba43a32cd8facb0ca209468e041e2
+- Blocks: 0            Seconds: 0
+   > Blocks: 1            Seconds: 17
+   > contract address:    0x52adF22f5E0b53612330Ab9c374990E89Cb05430
+   > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
+   > balance:             13.482051357999961
+   > gas used:            1783473
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01783473 ETH
+
+
+   Deploying 'SolnSquareVerifier'
+   ------------------------------
+   > transaction hash:    0x4acb54ef80aa6581b7c9261912110eb67970538d22f7ff8ce88e8bc3856adebf
+- Blocks: 0            Seconds: 0
+   > Blocks: 2            Seconds: 21
+   > contract address:    0x06F3f0fe8FC54BA43b3da8595D417Edf3D694D26
+   > account:             0x627306090abaB3A6e1400e9345bC60c78a8BEf57
+   > balance:             13.437087967999961
+   > gas used:            4496339
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.04496339 ETH
+
+
+- Saving migration to chain.
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.06279812 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.0656472 ETH
+
+Gowri Eswaran@LAPTOP-Q1TOUCOP MINGW64 ~/Documents/Blockchain-Capstone/eth-contracts (master)
+$ truffle test
+Compiling .\contracts\ERC721Mintable.sol...
+Compiling .\contracts\Migrations.sol...
+Compiling .\contracts\Oraclize.sol...
+Compiling .\contracts\SolnSquareVerifier.sol...
+Compiling .\contracts\Verifier.sol...
+Compiling .\contracts\ERC721Mintable.sol...
+Compiling .\contracts\Oraclize.sol...
+Compiling openzeppelin-solidity/contracts/drafts/Counters.sol...
+Compiling openzeppelin-solidity/contracts/math/SafeMath.sol...
+Compiling openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol...
+Compiling openzeppelin-solidity/contracts/utils/Address.sol...
+Compiling openzeppelin-solidity\contracts\math\SafeMath.sol...
+
+
+  Contract: TestERC721Mintable
+    match erc721 spec
+      √ should return total supply
+      √ should get token balance
+      √ should return token uri
+      √ should transfer token from one owner to another (74ms)
+    have ownership properties
+      √ should return contract owner
+      √ should fail when minting when address is not contract owner (43ms)
+
+  Contract: TestSolnSquareVerifier
+    Testing minting and adding solution
+      √ ERC721 token can be minted (1917ms)
+      √ Mint a token with the same solution (5694ms)
+
+  Contract: Verifier
+    √ Verification with correct proof (1911ms)
+    √ Verification with incorrect proof (1436ms)
+
+
+  10 passing (16s)
+
+
+
+OpenSea - Storefront
+https://rinkeby.opensea.io/assets/ge-s-real-estate-marketplace-decentralized
+
+Contract_address - 0x06F3f0fe8FC54BA43b3da8595D417Edf3D694D26
+
+
+Property - listings
+
+https://rinkeby.opensea.io/assets/0x06F3f0fe8FC54BA43b3da8595D417Edf3D694D26/1
+https://rinkeby.opensea.io/assets/0x06F3f0fe8FC54BA43b3da8595D417Edf3D694D26/2
+https://rinkeby.opensea.io/assets/0x06F3f0fe8FC54BA43b3da8595D417Edf3D694D26/3
+https://rinkeby.opensea.io/assets/0x06F3f0fe8FC54BA43b3da8595D417Edf3D694D26/4
+https://rinkeby.opensea.io/assets/0x06F3f0fe8FC54BA43b3da8595D417Edf3D694D26/5
+https://rinkeby.opensea.io/assets/0x06f3f0fe8fc54ba43b3da8595d417edf3d694d26/101
+https://rinkeby.opensea.io/assets/0x06f3f0fe8fc54ba43b3da8595d417edf3d694d26/102
+https://rinkeby.opensea.io/assets/0x06f3f0fe8fc54ba43b3da8595d417edf3d694d26/103
+https://rinkeby.opensea.io/assets/0x06f3f0fe8fc54ba43b3da8595d417edf3d694d26/104
+https://rinkeby.opensea.io/assets/0x06f3f0fe8fc54ba43b3da8595d417edf3d694d26/105
+
+
+Sell - TX hash
+https://rinkeby.etherscan.io/tx/0x2358db04d551d8be7e7dc41376968a5e3bfe0d95e997ce473dffe05582859aa5
+https://rinkeby.etherscan.io/tx/0x04f67703ece9ddf5bb3a3276f00cf487913394762b6d703c728c395a592ea899
+https://rinkeby.etherscan.io/tx/0xc4a8554b1200975e4d623b506dc320e0b803eb6ec9a285a02f781f3688093b6d
+https://rinkeby.etherscan.io/tx/0x283daffd613625a91f6300d6c16df2f404fe75cfd53c1dac1567f6f28efa7ae6
+https://rinkeby.etherscan.io/tx/0xba25c936218b0085ebee27af728693d5daf70d8b32f0adebfdcd9c60ac3a090e
+
+
+truffle test test/TestERC721Mintable.js 
+truffle test test/TestSquareVerifier.js  
+truffle test test/TestSolnSquareVerifier.js
