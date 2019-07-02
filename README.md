@@ -24,7 +24,7 @@ In directory eth-contracts/
 
 `truffle compile`
 
-![compile]()
+![compile](https://github.com/gowrieswaran/Real-Estate-Marketplace/blob/master/screenshots/truffle-compile.PNG)
 
 ## Truffle Tests
 
@@ -32,15 +32,15 @@ To run truffle tests:
 
 `truffle test test/TestERC721Mintable.js`
 
-![test1]()
+![test1](https://github.com/gowrieswaran/Real-Estate-Marketplace/blob/master/screenshots/test-mintable.PNG)
 
 `truffle test test/TestSquareVerifier.js`
 
-![test2]()
+![test2](https://github.com/gowrieswaran/Real-Estate-Marketplace/blob/master/screenshots/test-square-verifier.PNG)
 
 `truffle test test/TestSolnSquareVerifier.js`
 
-![test3]()
+![test3](https://github.com/gowrieswaran/Real-Estate-Marketplace/blob/master/screenshots/test-soln-square-verifier.PNG)
 
 ## Truffle Migrate
 
@@ -108,6 +108,7 @@ https://rinkeby.opensea.io/assets/0x06f3f0fe8fc54ba43b3da8595d417edf3d694d26/104
 https://rinkeby.opensea.io/assets/0x06f3f0fe8fc54ba43b3da8595d417edf3d694d26/105
 
 Sell - TX hash
+
 https://rinkeby.etherscan.io/tx/0x2358db04d551d8be7e7dc41376968a5e3bfe0d95e997ce473dffe05582859aa5
 https://rinkeby.etherscan.io/tx/0x04f67703ece9ddf5bb3a3276f00cf487913394762b6d703c728c395a592ea899
 https://rinkeby.etherscan.io/tx/0xc4a8554b1200975e4d623b506dc320e0b803eb6ec9a285a02f781f3688093b6d
